@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txtNull"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"></TextView>
+
+                <EditText
+                    android:id="@+id/editNameClient"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtNull"
+                    android:hint="Tên khách hàng" />
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:layout_below="@+id/editNameClient" />
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/edtNumberPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtEmail"
+                    android:gravity="top"
+                    android:hint="Số điện thoại"
+                    android:padding="5dp"
+                    android:inputType="number"/>
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/edtAdress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtNumberPhone"
+                    android:gravity="top"
+                    android:hint="Địa chỉ giao hàng"
+                    android:padding="5dp"
+                    android:inputType="text"/>
+
+                <Button
+                    android:id="@+id/btnSend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/edtAdress"
+                    android:layout_marginTop="9dp"
+                    android:backgroundTint="#DF8B8B"
+                    android:text="Gửi" />
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                    android:layout_below="@+id/btnSend"></TextView>
+        </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "555209409681",
+    "project_id": "dataungdungbanhang",
+    "storage_bucket": "dataungdungbanhang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555209409681:android:1504db88da051ebc162b30",
+        "android_client_info": {
+          "package_name": "com.example.ungdungbanhang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "555209409681-lnd459jluehn4vi02e1oi85cm46j1lfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjaZGLpeL65V_t3XynslpGb2x0rryHDGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555209409681-lnd459jluehn4vi02e1oi85cm46j1lfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

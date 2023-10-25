@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.DienThoaiActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarDienThoai"
+        android:background="#03A9F4"
+        app:titleTextColor="#f000"
+        app:title="ĐIỆN THOẠI"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/search_view_bg"
+        app:queryHint="Tìm kiếm"
+        app:iconifiedByDefault="false">
+    </androidx.appcompat.widget.SearchView>
+    <ListView
+        android:id="@+id/lvDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

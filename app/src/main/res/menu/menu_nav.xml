@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/home">
+        </item>
+        <item android:id="@+id/nav_dienThoai"
+            android:title="@string/nav_dienthoai"
+            android:icon="@drawable/phone">
+        </item>
+        <item android:id="@+id/nav_diaChi"
+            android:title="@string/nav_diachi"
+            android:icon="@drawable/location">
+        </item>
+
+    </group>
+    <item android:title="@string/nav_taikhoan">
+        <menu>
+            <item android:id="@+id/nav_thongTin"
+                android:title="@string/nav_thongtin"
+                android:icon="@drawable/user">
+            </item>
+            <item android:id="@+id/nav_dangXuat"
+                android:title="@string/nav_dangxuat"
+                android:icon="@drawable/logout">
+            </item>
+
+        </menu>
+    </item>
+
+</menu>
